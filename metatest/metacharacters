@@ -1,0 +1,3 @@
+1. Quoting: \ - turns object into a string. '...' - turn everything in the apostrophes into a string. "..." - turns everything in it into string, except for \, $, $(cmd), $((exp)), `cmd`
+2. # turn everything in front of it into a comment whan has a space before it " #comment |#not a comment"
+3. | - takes the output of the previous command and uses in the command that goes after. ; - sequencial command splitting . & - multithread command splitting. && - if A works, then B plays. || - if A doesn't work, then B plays
